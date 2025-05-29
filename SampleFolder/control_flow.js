@@ -24,3 +24,16 @@ switch (userRole) {
     }
 
     console.log("Messaggio Servizio:", serviceMessage);
+
+
+    let lenght;
+    let width;
+
+    function calculateArea () {
+        lengh = parseFloat (document.getElementById('lenght').value);
+        width = parseFloat (document.getElementById('width').value);
+
+    let area = lenght * width;
+
+     document.getElementById('result').innerText = `The area of the rectangle is: ${area}`;
+    }
