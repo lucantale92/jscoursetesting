@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Raccomandazioni di Viaggio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    nav a, nav input, nav button {
+      margin: 0 0.5rem;
+      color: white;
+    }
+    nav input {
+      padding: 5px;
+    }
+    nav button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 100px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    #results {
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 2rem;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .place {
+      margin: 1rem 0;
+    }
+    .place img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="travel_recommendation.html">Home</a>
+    <a href="about.html">Chi Siamo</a>
+    <a href="contact.html">Contattaci</a>
+    <input type="text" id="searchInput" placeholder="Es. spiaggia, tempio, paese">
+    <button onclick="search()">Cerca</button>
+    <button onclick="reset()">Reset</button>
+  </nav>
+
+  <div class="hero">
+    <h1>Esplora le migliori destinazioni</h1>
+    <p>Scopri luoghi meravigliosi per la tua prossima avventura</p>
+    <button onclick="alert('Funzione prenotazione non disponibile')">Prenota Ora</button>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>

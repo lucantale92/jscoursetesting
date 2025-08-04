@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Spiaggia dei Conigli",
+    "keyword": "spiaggia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Lampedusa_Spiaggia_dei_Conigli_02.jpg/800px-Lampedusa_Spiaggia_dei_Conigli_02.jpg",
+    "description": "Una delle spiagge pi\u00f9 belle del mondo, situata a Lampedusa."
+  },
+  {
+    "name": "Cala Rossa",
+    "keyword": "spiaggia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cala_Rossa_%28Favignana%29.jpg/800px-Cala_Rossa_%28Favignana%29.jpg",
+    "description": "Una splendida cala con acque cristalline sull'isola di Favignana."
+  },
+  {
+    "name": "Valle dei Templi",
+    "keyword": "tempio",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Agrigent_Tal_der_Tempel.jpg/800px-Agrigent_Tal_der_Tempel.jpg",
+    "description": "Uno dei siti archeologici pi\u00f9 importanti della Sicilia, ad Agrigento."
+  },
+  {
+    "name": "Tempio di Segesta",
+    "keyword": "tempio",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sicilia_Segesta_Tempel.jpg/800px-Sicilia_Segesta_Tempel.jpg",
+    "description": "Tempio dorico ben conservato immerso nelle colline siciliane."
+  },
+  {
+    "name": "Savoca",
+    "keyword": "paese",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Savoca_sicilia.jpg/800px-Savoca_sicilia.jpg",
+    "description": "Affascinante borgo medievale siciliano, famoso per il film Il Padrino."
+  },
+  {
+    "name": "Castelmola",
+    "keyword": "paese",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Castelmola.jpg/800px-Castelmola.jpg",
+    "description": "Suggestivo borgo sopra Taormina con vista sul mare e sull'Etna."
+  }
+]
